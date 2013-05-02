@@ -5,7 +5,7 @@
 //  Created by wang shuqing on 13-5-2.
 //  Copyright (c) 2013年 wangshuqing. All rights reserved.
 //
-
+//use github is a best choose for me?
 #import "RandomController.h"
 
 @implementation RandomController
@@ -47,9 +47,9 @@
     NSDate *now;
     now = [NSDate date];
     
-    //[textFiled setObjectValue:now];
+    [textFiled setObjectValue:now];
     
-    [textFiled setObjectValue:[NSDate date]];
+    //[textFiled setObjectValue:[NSDate date]];
     NSLog(@"awakeFromNib RandomController");
 }
 @end
