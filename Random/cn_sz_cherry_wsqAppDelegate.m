@@ -8,6 +8,8 @@
 
 #import "cn_sz_cherry_wsqAppDelegate.h"
 
+
+
 @implementation cn_sz_cherry_wsqAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -15,4 +17,13 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)seedRandomNumber:(id)sender {
+}
+
+- (IBAction)generateRandomNumber:(id)sender {
+}
+- (void)awakeFromNib
+{
+    NSLog(@"awakeFromNib wsqAppDelegate");
+}
 @end
